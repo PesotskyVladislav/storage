@@ -1,3 +1,3 @@
 .PHONY: run
 run:
-	go run cmd/storage/main.goimage.png
+	go run cmd/storage/main.go
