@@ -17,7 +17,6 @@ func NewFile(filename string, blob []byte) (*File, error) {
 	if err != nil {
 		return nil, err
 	}
-
 	return &File{
 		ID:   fileID,
 		Name: filename,
